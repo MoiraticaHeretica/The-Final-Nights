@@ -15271,15 +15271,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
-"dXN" = (
-/obj/machinery/light{
-	dir = 4;
-	brightness = 5
-	},
-/obj/structure/table,
-/obj/structure/table/wood,
-/turf/closed/wall/vampwall/old/low,
-/area/vtm/interior/techshop)
 "dXR" = (
 /turf/open/floor/carpet,
 /area/vtm/interior/gnawer)
@@ -21358,6 +21349,16 @@
 	},
 /turf/open/floor/light,
 /area/vtm/interior/endron_facility/restricted)
+"fCa" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 10
+	},
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#6488EA"
+	},
+/turf/open/floor/plating/vampcarpet,
+/area/vtm/interior/techshop)
 "fCj" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -21434,13 +21435,6 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm/interior/chantry)
-"fCV" = (
-/obj/effect/decal/kopatich{
-	pixel_w = 0;
-	pixel_x = -16
-	},
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/techshop)
 "fCW" = (
 /obj/structure/railing{
 	dir = 1;
@@ -23980,7 +23974,7 @@
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/structure/chair/sofa/corp{
 	dir = 1;
-	pixel_x = -8
+	pixel_x = -2
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/techshop)
@@ -26398,8 +26392,8 @@
 "gRe" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4;
-	pixel_x = -8;
-	pixel_y = 14
+	pixel_x = -2;
+	pixel_y = 2
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/techshop)
@@ -31311,6 +31305,14 @@
 "ijj" = (
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower/f3)
+"ijl" = (
+/obj/effect/decal/kopatich{
+	pixel_w = 0;
+	pixel_x = -8;
+	pixel_z = null
+	},
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/techshop)
 "ijs" = (
 /obj/structure/hydrant,
 /obj/effect/landmark/npcability,
@@ -31395,8 +31397,8 @@
 /area/vtm/financialdistrict)
 "ilc" = (
 /obj/structure/chair/sofa/corp{
-	pixel_y = 8;
-	pixel_x = -8
+	pixel_y = 2;
+	pixel_x = -2
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/techshop)
@@ -31620,7 +31622,7 @@
 	},
 /obj/structure/chair/sofa/corp/left{
 	dir = 4;
-	pixel_x = -8
+	pixel_x = -2
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/techshop)
@@ -36449,7 +36451,7 @@
 	},
 /obj/structure/chair/sofa/corp/left{
 	dir = 1;
-	pixel_x = -8
+	pixel_x = -2
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/techshop)
@@ -37910,6 +37912,9 @@
 /obj/item/detective_scanner,
 /obj/item/detective_scanner,
 /obj/item/detective_scanner,
+/obj/item/tape,
+/obj/item/tape,
+/obj/item/tape,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/techshop)
 "jWI" = (
@@ -38261,8 +38266,8 @@
 	},
 /obj/structure/chair/sofa/corp{
 	dir = 4;
-	pixel_y = 8;
-	pixel_x = -8
+	pixel_y = 2;
+	pixel_x = -2
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/techshop)
@@ -50917,13 +50922,11 @@
 /area/vtm/jazzclub)
 "nuc" = (
 /obj/structure/table/wood,
-/obj/underplate{
-	pixel_y = 8
-	},
 /obj/item/kitchen/knife/plastic{
 	pixel_x = -5;
 	pixel_y = 5
 	},
+/obj/item/reagent_containers/glass/bowl,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/techshop)
 "nuf" = (
@@ -60756,8 +60759,8 @@
 /area/vtm/interior/tzimisce_manor)
 "pTv" = (
 /obj/structure/chair/sofa/corp/left{
-	pixel_y = 8;
-	pixel_x = -8
+	pixel_y = 2;
+	pixel_x = -2
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/techshop)
@@ -74174,7 +74177,7 @@
 	},
 /obj/structure/chair/sofa/corp/corner{
 	dir = 1;
-	pixel_x = -8
+	pixel_x = -2
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/techshop)
@@ -85237,6 +85240,10 @@
 /area/vtm/interior/chantry/basement)
 "wkR" = (
 /obj/machinery/camera/autoname/directional/east,
+/obj/machinery/light{
+	dir = 4;
+	brightness = 5
+	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/techshop)
 "wkU" = (
@@ -87069,8 +87076,8 @@
 "wLi" = (
 /obj/structure/chair/sofa/corp/corner{
 	dir = 4;
-	pixel_y = 8;
-	pixel_x = -8
+	pixel_y = 2;
+	pixel_x = -2
 	},
 /obj/machinery/light/small{
 	pixel_y = 32
@@ -88511,10 +88518,6 @@
 /area/vtm/interior/cog/pantry)
 "xfI" = (
 /obj/effect/turf_decal/siding/white,
-/obj/machinery/light{
-	dir = 8;
-	light_color = "#6488EA"
-	},
 /obj/structure/table/wood,
 /obj/item/dice/d6,
 /obj/item/dice/d8,
@@ -198690,7 +198693,7 @@ vhz
 dIz
 rNo
 aky
-uvy
+fCa
 rsP
 kSR
 cPQ
@@ -199970,12 +199973,12 @@ gBH
 gRg
 gRg
 gRg
-dXN
+gRg
 wkR
 pEv
 gBH
-kee
 gBH
+kee
 gBH
 kSR
 iog
@@ -264478,8 +264481,8 @@ bGT
 bnt
 oAP
 ilc
-fCV
 rdi
+ijl
 rdi
 tvd
 qIU
